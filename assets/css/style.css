@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2fe, #f3e8ff);
+    color: #1f2937;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px;
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 650px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    border: 1px solid #e5e7eb;
+}
+
+.profile-header {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.profile-avatar {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background-color: #2563eb;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #1d4ed8;
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+.subtitle {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    color: #1d4ed8;
+    font-size: 21px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    border-left: 4px solid #2563eb;
+}
+
+.section p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.skills-list li {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 9px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid #bfdbfe;
+}
+
+.contact-section a {
+    color: #2563eb;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.contact-section a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 30px;
+    padding-top: 18px;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 22px 18px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .section h2 {
+        font-size: 19px;
+    }
+
+    .skills-list li {
+        font-size: 13px;
+    }
+}
